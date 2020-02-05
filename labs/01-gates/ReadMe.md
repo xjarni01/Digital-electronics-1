@@ -36,9 +36,9 @@
 
 ![funkcia](function.png)
 
-![and funkcia](fun and.png)
+![and funkcia](funand.png)
 
-![or funkcia](fun or.png)
+![or funkcia](funor.png)
 
 
 
