@@ -1,0 +1,8 @@
+V3 3
+FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/02-ise/comparator/top.vhd 2020/02/12.11:56:16 P.20131013
+EN work/top 1581506706 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/02-ise/comparator/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 1581506707 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/02-ise/comparator/top.vhd \
+      EN work/top 1581506706
