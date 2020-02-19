@@ -1,0 +1,8 @@
+V3 3
+FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/03-segment/segment/top.vhd 2020/02/19.11:32:50 P.20131013
+EN work/hex_to_7seg 0 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/03-segment/segment/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 0 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/03-segment/segment/top.vhd \
+      EN work/hex_to_7seg 0
