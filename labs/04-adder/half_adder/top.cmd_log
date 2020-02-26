@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.xst" -ofn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.syr" 
+xst -intstyle ise -ifn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.xst" -ofn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.syr" 
+xst -intstyle ise -ifn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.xst" -ofn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.syr" 
+xst -intstyle ise -ifn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.xst" -ofn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.syr" 
+xst -intstyle ise -ifn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.xst" -ofn "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/top.syr" 

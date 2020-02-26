@@ -1,0 +1,116 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : CoolRunner2 CPLDs
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : Yes
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Verilog 2001                       : YES
+
+---- Other Options
+Clock Enable                       : YES
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/half_adder.vhd" in Library work.
+Architecture behavioral of Entity half_adder is up to date.
+Compiling vhdl file "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/full_adder.vhd" in Library work.
+Architecture behavioral of Entity full_adder is up to date.
+Compiling vhdl file "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/hex_to_7seg.vhd" in Library work.
+Architecture behavioral of Entity hex_to_7seg is up to date.
+Compiling vhdl file "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" in Library work.
+Entity <top> compiled.
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 62. Undefined symbol 'a_i'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 62. a_i: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 63. Undefined symbol 'b_i'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 63. b_i: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 64. Undefined symbol 'carry_i'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 64. carry_i: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 65. Undefined symbol 'sum'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 65. sum: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 66. Undefined symbol 'carry_o'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 66. carry_o: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 61. IN mode Formal carry_i of entity with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 68. IN mode Formal carry_i of entity with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 75. IN mode Formal carry_i of entity with no default value must be associated with an actual value.
+ERROR:HDLParsers:3324 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 82. IN mode Formal carry_i of entity with no default value must be associated with an actual value.
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 93. Undefined symbol 'hex_i'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 93. hex_i: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 94. Undefined symbol 'seg_o'.
+ERROR:HDLParsers:1209 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 94. seg_o: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd" Line 91. IN mode Formal hex_i of entity with no default value must be associated with an actual value.
+--> 
+
+
+Total memory usage is 489092 kilobytes
+
+Number of errors   :   19 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

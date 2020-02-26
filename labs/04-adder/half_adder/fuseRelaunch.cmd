@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/full_adder00_isim_beh.exe" -prj "/home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/full_adder00_beh.prj" "work.full_adder00" 

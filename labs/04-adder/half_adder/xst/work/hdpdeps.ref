@@ -1,0 +1,29 @@
+V3 15
+FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/full_adder.vhd 2020/02/26.11:30:44 P.20131013
+EN work/full_adder 1582717615 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/full_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/Behavioral 1582717616 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/full_adder.vhd \
+      EN work/full_adder 1582717615 CP work/half_adder
+FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/half_adder.vhd 2020/02/26.11:29:59 P.20131013
+EN work/half_adder 1582717613 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/half_adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1582717614 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/half_adder.vhd \
+      EN work/half_adder 1582717613
+FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/hex_to_7seg.vhd 2020/02/19.11:40:43 P.20131013
+EN work/hex_to_7seg 1582717617 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/hex_to_7seg.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/hex_to_7seg/Behavioral 1582717618 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/half_adder/hex_to_7seg.vhd \
+      EN work/hex_to_7seg 1582717617
+FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd 2020/02/26.12:13:40 P.20131013
+EN work/top 0 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/top/Behavioral 0 \
+      FL /home/lab661/Documents/xjarni01/Digital-electronics-1/labs/04-adder/top/top.vhd \
+      EN work/top 0 CP work/full_adder CP work/hex_to_7seg
