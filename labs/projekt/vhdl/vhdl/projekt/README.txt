@@ -1,7 +1,7 @@
 Obrazek enable:
 Zacatek stmivani - okolo 1ms se zapne PWM stmivani (do te doby pwm_out = 0). PWM v simulaci je 4b registr, a zacne odcitat na zaklade count_out 20ti bitoveho signalu
 
-![](projekt/vhdl/vhdl/enable.PNG)
+![](vhdl/vhdl/enable.PNG)
 
 Obrazek end_of_pwm:
 V case 984ms PWM strida je 0%, a stmivani je ukonceno. Stmivac vyuziva horni bity pomaleho citace, tudiz zmenou velikosti citace se meni doba stmivani. Pro presnejsi PWM (8bitu, 16bitu) lze vzit vice nez jen horni ctyri bity citace.
