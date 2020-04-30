@@ -1,49 +1,10 @@
-# Digital-electronics-1
+Obrazek enable:
+Zacatek stmivani - okolo 1ms se zapne PWM stmivani (do te doby pwm_out = 0). PWM v simulaci je 4b registr, a zacne odcitat na zaklade count_out 20ti bitoveho signalu
 
-## Online simulator
+![Enable](enable.PNG)
 
+Obrazek end_of_pwm:
+V case 984ms PWM strida je 0%, a stmivani je ukonceno. Stmivac vyuziva horni bity pomaleho citace, tudiz zmenou velikosti citace se meni doba stmivani. Pro presnejsi PWM (8bitu, 16bitu) lze vzit vice nez jen horni ctyri bity citace.
 
-![gates](../Screens/screen1.png)
-
-### Tabulka Log. funkcí
-
-|**A**|**NOT**|
-|:-:|:-:|
-|0|1|
-|1|0|
-
-|**A**|**B**|**AND**|**NAND**|
-|:-:|:-:|:-:|:-:|
-|0|0|0|1|
-|1|0|0|1|
-|0|1|0|1|
-|1|1|1|0|
-
-|**A**|**B**|**OR**|**NOR**|
-|:-:|:-:|:-:|:-:|
-|0|0|0|1|
-|1|0|1|0|
-|0|1|1|0|
-|1|1|1|0|
-
-|**A**|**B**|**XOR**|**XNOR**|
-|:-:|:-:|:-:|:-:|
-|0|0|0|1|
-|1|0|1|0|
-|0|1|1|0|
-|1|1|0|1|
-
-### De Morganovy zákony
-
-![eqination](https://latex.codecogs.com/gif.latex?f%20%3D%20a%20%5Ccdot%5Cbar%7B%7D%20b%20&plus;%5Cbar%7B%7D%20b%20%5Ccdot%5Cbar%7B%7D%20c)
-
-|**A**|**B**|**C**|**f**|
-|:-:|:-:|:-:|:-:|
-|0|0|0|1|
-|0|0|1|0|
-|0|1|0|0|
-|0|1|1|0|
-|1|0|0|1|
-|1|0|1|1|
-|1|1|0|0|
-|1|1|1|0|
+Obecne poznamky:
+Testbench je vytvoren pro system stmivani (fader_testb). Bohuzel jsme nestihli nasimulovat enkoder a casovac - je napsany, ale neotestovany.
