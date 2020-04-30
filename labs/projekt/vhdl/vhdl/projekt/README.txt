@@ -2,7 +2,7 @@ Obrazek enable:
 Zacatek stmivani - okolo 1ms se zapne PWM stmivani (do te doby pwm_out = 0). PWM v simulaci je 4b registr, a zacne odcitat na zaklade count_out 20ti bitoveho signalu
 
 &nbsp;
-![](enable.png)
+![Enable](enable.png)
 &nbsp;
 
 
