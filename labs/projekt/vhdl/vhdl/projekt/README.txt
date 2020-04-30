@@ -4,7 +4,7 @@ Zacatek stmivani - okolo 1ms se zapne PWM stmivani (do te doby pwm_out = 0). PWM
 
 ![enable](https://user-images.githubusercontent.com/60693127/80765854-55b23200-8b44-11ea-925d-c1f5354c6c8c.PNG)
 
-![enable](../Screens/enable.png)
+![enable](../Screens/enable.png) 
 
 
 Obrazek end_of_pwm:
