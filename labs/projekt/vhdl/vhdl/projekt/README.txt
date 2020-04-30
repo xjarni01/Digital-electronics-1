@@ -8,5 +8,5 @@ V case 984ms PWM strida je 0%, a stmivani je ukonceno. Stmivac vyuziva horni bit
 
 
 
-**Obecne poznamky:**
+Obecne poznamky:
 Testbench je vytvoren pro system stmivani (fader_testb). Bohuzel jsmenestihli nasimulovat enkoder a casovac - je napsany, ale neotestovany
