@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/work/vhdl/test1/fader_testb_isim_beh.exe" -prj "C:/work/vhdl/test1/fader_testb_beh.prj" "work.fader_testb" 

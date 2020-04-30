@@ -1,0 +1,3 @@
+vhdl work "pwm.vhd"
+vhdl work "fader.vhd"
+vhdl work "fader_testb.vhd"

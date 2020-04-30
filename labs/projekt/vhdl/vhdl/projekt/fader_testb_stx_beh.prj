@@ -1,0 +1,3 @@
+vhdl isim_temp "pwm.vhd"
+vhdl isim_temp "fader.vhd"
+vhdl isim_temp "fader_testb.vhd"
